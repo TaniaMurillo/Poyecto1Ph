@@ -17,7 +17,6 @@ public class Proyecto1Ph extends JFrame {
     private JTextField Email;
     private JTextField Telefono;
     private JButton Aceptarr;
-   
 
     // Constructor
     public Proyecto1Ph() {
@@ -103,3 +102,5 @@ public class Proyecto1Ph extends JFrame {
         new Proyecto1Ph().setVisible(true);
     }
 }
+
+
