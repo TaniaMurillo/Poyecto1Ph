@@ -91,15 +91,15 @@ public class Proyecto1Ph extends JFrame {
         panel.add(pnlTelefono);
         panel.add(Telefono);
         
-        panel.add(new JLabel("")); // espacio vacío
+        panel.add(new JLabel(""));
         panel.add(Aceptarr);
 
-        // Agregar panel al JFrame
+        // Panel al JFrame
         add(panel);
+        
     }
 
-    // MÉTODO MAIN (OBLIGATORIO)
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         new Proyecto1Ph().setVisible(true);
     }
 }
